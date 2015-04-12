@@ -1,0 +1,334 @@
+2015-04-06 03:01:50+0530 [scrapy] INFO: Scrapy 0.24.5 started (bot: scraping)
+2015-04-06 03:01:50+0530 [scrapy] INFO: Optional features available: ssl, http11, django
+2015-04-06 03:01:50+0530 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'scraping.spiders', 'MAIL_FROM': 'ranvijay5686@gmail.com', 'FEED_URI': '/var/lib/scrapyd/items/scraping/rookiestewArticleUrlSpider/29033588dbdb11e49009685d4345123a.jl', 'CONCURRENT_REQUESTS': 1, 'MAIL_USER': 'ranvijay5686@gmail.com', 'SPIDER_MODULES': ['scraping.spiders'], 'BOT_NAME': 'scraping', 'DOWNLOAD_TIMEOUT': 1200, 'MAIL_PASS': 'ranvijay9286', 'MAIL_HOST': 'smtp.gmail.com', 'MAIL_PORT': 587, 'LOG_FILE': '/var/log/scrapyd/scraping/rookiestewArticleUrlSpider/29033588dbdb11e49009685d4345123a.log'}
+2015-04-06 03:01:50+0530 [scrapy] INFO: Enabled extensions: FeedExporter, LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-04-06 03:01:50+0530 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, RandomUserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-04-06 03:01:50+0530 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-04-06 03:01:50+0530 [scrapy] INFO: Enabled item pipelines: 
+2015-04-06 03:01:50+0530 [rookiestewArticleUrlSpider] INFO: Spider opened
+2015-04-06 03:01:50+0530 [rookiestewArticleUrlSpider] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-04-06 03:01:50+0530 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6024
+2015-04-06 03:01:50+0530 [scrapy] DEBUG: Web service listening on 127.0.0.1:6081
+2015-04-06 03:01:50+0530 [rookiestewArticleUrlSpider] INFO: inside start request
+2015-04-06 03:01:50+0530 [rookiestewArticleUrlSpider] INFO: Created By Ranvijay: inputCSVs:['rookiestewUrlInputPaging.csv']
+2015-04-06 03:01:50+0530 [rookiestewArticleUrlSpider] INFO: Created By Ranvijay: OutputCSVs:['rookiestewUrls.csv']
+2015-04-06 03:01:50+0530 [rookiestewArticleUrlSpider] INFO: Processing Input CSV: /home/ranvijay/Downloads/newTechMonkey/scraping/scraping/spiders/input-output/rookiestewUrlInputPaging.csv
+2015-04-06 03:01:51+0530 [rookiestewArticleUrlSpider] DEBUG: Redirecting (301) to <GET http://www.rookiestew.com/> from <GET http://www.rookiestew.com/page/1/>
+2015-04-06 03:01:59+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/> (referer: None)
+2015-04-06 03:01:59+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:01:59+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:02:04+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/2/> (referer: None)
+2015-04-06 03:02:04+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:02:04+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:02:11+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/3/> (referer: None)
+2015-04-06 03:02:11+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:02:11+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:02:16+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/4/> (referer: None)
+2015-04-06 03:02:16+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:02:16+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:02:22+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/5/> (referer: None)
+2015-04-06 03:02:23+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:02:23+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:02:27+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/6/> (referer: None)
+2015-04-06 03:02:27+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:02:27+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:02:31+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/7/> (referer: None)
+2015-04-06 03:02:31+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:02:31+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:02:37+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/8/> (referer: None)
+2015-04-06 03:02:37+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:02:37+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:02:42+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/9/> (referer: None)
+2015-04-06 03:02:42+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:02:42+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:02:47+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/10/> (referer: None)
+2015-04-06 03:02:47+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:02:47+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:02:50+0530 [rookiestewArticleUrlSpider] INFO: Crawled 10 pages (at 10 pages/min), scraped 0 items (at 0 items/min)
+2015-04-06 03:02:54+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/11/> (referer: None)
+2015-04-06 03:02:54+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:02:54+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:02:59+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/12/> (referer: None)
+2015-04-06 03:02:59+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:02:59+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:03:05+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/13/> (referer: None)
+2015-04-06 03:03:05+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:03:05+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:03:11+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/14/> (referer: None)
+2015-04-06 03:03:11+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:03:11+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:03:19+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/15/> (referer: None)
+2015-04-06 03:03:19+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:03:19+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:03:23+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/16/> (referer: None)
+2015-04-06 03:03:23+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:03:23+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:03:30+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/17/> (referer: None)
+2015-04-06 03:03:30+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:03:30+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:03:35+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/18/> (referer: None)
+2015-04-06 03:03:35+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:03:35+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:03:42+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/19/> (referer: None)
+2015-04-06 03:03:42+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:03:42+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:03:47+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/20/> (referer: None)
+2015-04-06 03:03:47+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:03:47+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:03:50+0530 [rookiestewArticleUrlSpider] INFO: Crawled 20 pages (at 10 pages/min), scraped 0 items (at 0 items/min)
+2015-04-06 03:03:54+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/21/> (referer: None)
+2015-04-06 03:03:54+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:03:54+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:04:01+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/22/> (referer: None)
+2015-04-06 03:04:01+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:04:01+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:04:06+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/23/> (referer: None)
+2015-04-06 03:04:06+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:04:06+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:04:13+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/24/> (referer: None)
+2015-04-06 03:04:13+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:04:13+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:04:20+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/25/> (referer: None)
+2015-04-06 03:04:20+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:04:20+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:04:26+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/26/> (referer: None)
+2015-04-06 03:04:26+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:04:26+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:04:32+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/27/> (referer: None)
+2015-04-06 03:04:32+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:04:32+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:04:39+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/28/> (referer: None)
+2015-04-06 03:04:39+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:04:39+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:04:46+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/29/> (referer: None)
+2015-04-06 03:04:46+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:04:46+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:04:50+0530 [rookiestewArticleUrlSpider] INFO: Crawled 29 pages (at 9 pages/min), scraped 0 items (at 0 items/min)
+2015-04-06 03:04:54+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/30/> (referer: None)
+2015-04-06 03:04:54+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:04:54+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:04:58+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/31/> (referer: None)
+2015-04-06 03:04:58+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:04:58+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:05:06+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/32/> (referer: None)
+2015-04-06 03:05:06+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:05:06+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:05:13+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/33/> (referer: None)
+2015-04-06 03:05:13+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:05:13+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:05:20+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/34/> (referer: None)
+2015-04-06 03:05:20+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:05:20+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:05:27+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/35/> (referer: None)
+2015-04-06 03:05:27+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:05:27+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:05:33+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/36/> (referer: None)
+2015-04-06 03:05:33+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:05:33+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:05:39+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/37/> (referer: None)
+2015-04-06 03:05:39+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:05:39+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:05:47+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/38/> (referer: None)
+2015-04-06 03:05:47+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:05:47+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:05:50+0530 [rookiestewArticleUrlSpider] INFO: Crawled 38 pages (at 9 pages/min), scraped 0 items (at 0 items/min)
+2015-04-06 03:05:54+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/39/> (referer: None)
+2015-04-06 03:05:54+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:05:54+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:06:00+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/40/> (referer: None)
+2015-04-06 03:06:00+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:06:00+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:06:07+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/41/> (referer: None)
+2015-04-06 03:06:07+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:06:07+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:06:13+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/42/> (referer: None)
+2015-04-06 03:06:13+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:06:13+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:06:21+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/43/> (referer: None)
+2015-04-06 03:06:21+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:06:21+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:06:27+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/44/> (referer: None)
+2015-04-06 03:06:27+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:06:27+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:06:34+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/45/> (referer: None)
+2015-04-06 03:06:34+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:06:34+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:06:41+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/46/> (referer: None)
+2015-04-06 03:06:41+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:06:41+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:06:46+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/47/> (referer: None)
+2015-04-06 03:06:46+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:06:46+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:06:50+0530 [rookiestewArticleUrlSpider] INFO: Crawled 47 pages (at 9 pages/min), scraped 0 items (at 0 items/min)
+2015-04-06 03:06:53+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/48/> (referer: None)
+2015-04-06 03:06:53+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:06:53+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:06:58+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/49/> (referer: None)
+2015-04-06 03:06:58+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:06:58+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:07:02+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/50/> (referer: None)
+2015-04-06 03:07:02+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:07:02+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:07:08+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/51/> (referer: None)
+2015-04-06 03:07:08+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:07:08+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:07:15+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/52/> (referer: None)
+2015-04-06 03:07:15+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:07:15+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:07:22+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/53/> (referer: None)
+2015-04-06 03:07:22+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:07:22+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:07:29+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/54/> (referer: None)
+2015-04-06 03:07:29+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:07:29+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:07:34+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/55/> (referer: None)
+2015-04-06 03:07:34+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:07:34+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:07:41+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/56/> (referer: None)
+2015-04-06 03:07:41+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:07:41+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:07:47+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/57/> (referer: None)
+2015-04-06 03:07:47+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:07:47+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:07:50+0530 [rookiestewArticleUrlSpider] INFO: Crawled 57 pages (at 10 pages/min), scraped 0 items (at 0 items/min)
+2015-04-06 03:07:54+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/58/> (referer: None)
+2015-04-06 03:07:54+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:07:54+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:08:00+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/59/> (referer: None)
+2015-04-06 03:08:00+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:08:00+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:08:06+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/60/> (referer: None)
+2015-04-06 03:08:06+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:08:06+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:08:12+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/61/> (referer: None)
+2015-04-06 03:08:12+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:08:12+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:08:19+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/62/> (referer: None)
+2015-04-06 03:08:19+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:08:19+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:08:26+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/63/> (referer: None)
+2015-04-06 03:08:26+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:08:26+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:08:31+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/64/> (referer: None)
+2015-04-06 03:08:31+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:08:31+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:08:35+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/65/> (referer: None)
+2015-04-06 03:08:35+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:08:35+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:08:41+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/66/> (referer: None)
+2015-04-06 03:08:41+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:08:41+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:08:45+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/67/> (referer: None)
+2015-04-06 03:08:45+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:08:45+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:08:50+0530 [rookiestewArticleUrlSpider] INFO: Crawled 67 pages (at 10 pages/min), scraped 0 items (at 0 items/min)
+2015-04-06 03:08:52+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/68/> (referer: None)
+2015-04-06 03:08:52+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:08:52+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:08:58+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/69/> (referer: None)
+2015-04-06 03:08:58+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:08:58+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:09:06+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/70/> (referer: None)
+2015-04-06 03:09:06+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:09:06+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:09:12+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/71/> (referer: None)
+2015-04-06 03:09:12+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:09:12+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:09:16+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/72/> (referer: None)
+2015-04-06 03:09:16+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:09:16+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:09:21+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/73/> (referer: None)
+2015-04-06 03:09:21+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:09:21+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:09:27+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/74/> (referer: None)
+2015-04-06 03:09:27+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:09:27+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:09:31+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/75/> (referer: None)
+2015-04-06 03:09:31+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:09:31+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:09:39+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/76/> (referer: None)
+2015-04-06 03:09:39+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:09:39+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:09:44+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/77/> (referer: None)
+2015-04-06 03:09:44+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:09:44+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:09:50+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/78/> (referer: None)
+2015-04-06 03:09:50+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:09:50+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:09:50+0530 [rookiestewArticleUrlSpider] INFO: Crawled 78 pages (at 11 pages/min), scraped 0 items (at 0 items/min)
+2015-04-06 03:09:56+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/79/> (referer: None)
+2015-04-06 03:09:56+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:09:56+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:10:01+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/80/> (referer: None)
+2015-04-06 03:10:01+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:10:01+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:10:06+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/81/> (referer: None)
+2015-04-06 03:10:06+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:10:06+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:10:13+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/82/> (referer: None)
+2015-04-06 03:10:13+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:10:13+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:10:20+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/83/> (referer: None)
+2015-04-06 03:10:20+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:10:20+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:10:27+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/84/> (referer: None)
+2015-04-06 03:10:27+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:10:27+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:10:32+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/85/> (referer: None)
+2015-04-06 03:10:32+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:10:32+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:10:39+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/86/> (referer: None)
+2015-04-06 03:10:39+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:10:39+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:10:45+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/87/> (referer: None)
+2015-04-06 03:10:45+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:10:45+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:10:49+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/88/> (referer: None)
+2015-04-06 03:10:49+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:10:49+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:10:50+0530 [rookiestewArticleUrlSpider] INFO: Crawled 88 pages (at 10 pages/min), scraped 0 items (at 0 items/min)
+2015-04-06 03:10:53+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/89/> (referer: None)
+2015-04-06 03:10:53+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:10:53+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:10:57+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/90/> (referer: None)
+2015-04-06 03:10:57+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:10:57+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:11:04+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/91/> (referer: None)
+2015-04-06 03:11:04+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:11:04+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:11:10+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/92/> (referer: None)
+2015-04-06 03:11:10+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:11:10+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:11:18+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/93/> (referer: None)
+2015-04-06 03:11:18+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:11:18+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:11:24+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/94/> (referer: None)
+2015-04-06 03:11:24+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:11:24+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:11:30+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/95/> (referer: None)
+2015-04-06 03:11:30+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:11:30+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:11:35+0530 [rookiestewArticleUrlSpider] DEBUG: Crawled (200) <GET http://www.rookiestew.com/page/96/> (referer: None)
+2015-04-06 03:11:35+0530 [rookiestewArticleUrlSpider] INFO: after yield requrest
+2015-04-06 03:11:35+0530 [rookiestewArticleUrlSpider] INFO: in parse response
+2015-04-06 03:11:35+0530 [rookiestewArticleUrlSpider] INFO: Closing spider (finished)
+2015-04-06 03:11:35+0530 [rookiestewArticleUrlSpider] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 27691,
+	 'downloader/request_count': 97,
+	 'downloader/request_method_count/GET': 97,
+	 'downloader/response_bytes': 1360013,
+	 'downloader/response_count': 97,
+	 'downloader/response_status_count/200': 96,
+	 'downloader/response_status_count/301': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 4, 5, 21, 41, 35, 736998),
+	 'log_count/DEBUG': 99,
+	 'log_count/INFO': 212,
+	 'response_received_count': 96,
+	 'scheduler/dequeued': 97,
+	 'scheduler/dequeued/memory': 97,
+	 'scheduler/enqueued': 97,
+	 'scheduler/enqueued/memory': 97,
+	 'start_time': datetime.datetime(2015, 4, 5, 21, 31, 50, 831998)}
+2015-04-06 03:11:35+0530 [rookiestewArticleUrlSpider] INFO: Spider closed (finished)
+2015-04-06 03:11:40+0530 [scrapy] INFO: Mail sent OK: To=['ranvijay5686@gmail.com'] Cc=['ranvijay5686@gmail.com'] Subject="rookiestewArticleUrlSpider: processing complete" Attachs=0

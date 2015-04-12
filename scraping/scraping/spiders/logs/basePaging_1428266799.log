@@ -1,0 +1,233 @@
+2015-04-06 02:16:39+0530 [scrapy] INFO: Scrapy 0.24.5 started (bot: scraping)
+2015-04-06 02:16:39+0530 [scrapy] INFO: Optional features available: ssl, http11, django
+2015-04-06 02:16:39+0530 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'scraping.spiders', 'MAIL_FROM': 'ranvijay5686@gmail.com', 'FEED_URI': '/var/lib/scrapyd/items/scraping/basePaging/d8f65fdadbd411e49009685d4345123a.jl', 'CONCURRENT_REQUESTS': 1, 'MAIL_USER': 'ranvijay5686@gmail.com', 'SPIDER_MODULES': ['scraping.spiders'], 'BOT_NAME': 'scraping', 'DOWNLOAD_TIMEOUT': 1200, 'MAIL_PASS': 'ranvijay9286', 'MAIL_HOST': 'smtp.gmail.com', 'MAIL_PORT': 587, 'LOG_FILE': '/var/log/scrapyd/scraping/basePaging/d8f65fdadbd411e49009685d4345123a.log'}
+2015-04-06 02:16:39+0530 [scrapy] INFO: Enabled extensions: FeedExporter, LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-04-06 02:16:39+0530 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, RandomUserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-04-06 02:16:39+0530 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-04-06 02:16:39+0530 [scrapy] INFO: Enabled item pipelines: 
+2015-04-06 02:16:39+0530 [basePaging] INFO: Spider opened
+2015-04-06 02:16:39+0530 [basePaging] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-04-06 02:16:39+0530 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2015-04-06 02:16:39+0530 [scrapy] DEBUG: Web service listening on 127.0.0.1:6080
+2015-04-06 02:16:39+0530 [basePaging] INFO: inside start request
+2015-04-06 02:16:39+0530 [basePaging] INFO: Created By Ranvijay: inputCSVs:['rookiestewUrlInput.csv']
+2015-04-06 02:16:39+0530 [basePaging] INFO: Created By Ranvijay: OutputCSVs:['rookiestewUrlInputPaging.csv']
+2015-04-06 02:16:39+0530 [basePaging] INFO: Processing Input CSV: /home/ranvijay/Downloads/newTechMonkey/scraping/scraping/spiders/input-output/rookiestewUrlInput.csv
+2015-04-06 02:16:40+0530 [basePaging] DEBUG: Crawled (200) <GET http://www.rookiestew.com/> (referer: None)
+2015-04-06 02:16:40+0530 [basePaging] INFO: after yield requrest
+2015-04-06 02:16:40+0530 [basePaging] INFO: in parse response
+2015-04-06 02:16:40+0530 [basePaging] INFO: page count : 96
+2015-04-06 02:16:40+0530 [basePaging] INFO: pageee : 96
+2015-04-06 02:16:40+0530 [basePaging] INFO: 111111111111111111
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii0
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii1
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii2
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii3
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii4
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii5
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii6
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii7
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii8
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii9
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii10
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii11
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii12
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii13
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii14
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii15
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii16
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii17
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii18
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii19
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii20
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii21
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii22
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii23
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii24
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii25
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii26
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii27
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii28
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii29
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii30
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii31
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii32
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii33
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii34
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii35
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii36
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii37
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii38
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii39
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii40
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii41
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii42
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii43
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii44
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii45
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii46
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii47
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii48
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii49
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii50
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii51
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii52
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii53
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii54
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii55
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii56
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii57
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii58
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii59
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii60
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii61
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii62
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii63
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii64
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii65
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii66
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii67
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii68
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii69
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii70
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii71
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii72
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii73
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii74
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii75
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii76
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii77
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii78
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii79
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii80
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii81
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii82
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii83
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii84
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii85
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii86
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii87
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii88
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii89
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii90
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii91
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii92
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii93
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii94
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: iiiiiiiiiii95
+2015-04-06 02:16:40+0530 [basePaging] INFO: loveeeeeeeeeeeeeeeee
+2015-04-06 02:16:40+0530 [basePaging] INFO: Closing spider (finished)
+2015-04-06 02:16:40+0530 [basePaging] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 301,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 16119,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 4, 5, 20, 46, 40, 259651),
+	 'log_count/DEBUG': 3,
+	 'log_count/INFO': 208,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2015, 4, 5, 20, 46, 39, 119649)}
+2015-04-06 02:16:40+0530 [basePaging] INFO: Spider closed (finished)
+2015-04-06 02:16:45+0530 [scrapy] INFO: Mail sent OK: To=['ranvijay5686@gmail.com'] Cc=['ranvijay5686@gmail.com'] Subject="basePaging: processing complete" Attachs=0

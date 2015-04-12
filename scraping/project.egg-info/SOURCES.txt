@@ -1,0 +1,19 @@
+scrapy.cfg
+setup.py
+twistd.pid
+documents/Scraping Setup - Ubuntu 14.docx
+documents/Scrapy Documentaion_windows.docx
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
+scraping/__init__.py
+scraping/middleware.py
+scraping/settings.py
+scraping/utils.py
+scraping/spiders/__init__.py
+scraping/spiders/basePaging.py
+scraping/spiders/ranvijayBaseSpider.py
+scraping/spiders/rookiestewArticleUrlSpider.py
+scraping/spiders/rookiestewDetailSpider.py
